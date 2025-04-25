@@ -1,0 +1,202 @@
+/* ////// START //////// modals ВСЁ ИСПРАВЛЕНО ИНТЕРВАЛЫ 768px 541px 481px ////////// */
+
+@media (min-width: 541px) and (max-width: 768px) {
+    body #modals .modal-form-section ._modal .modal-bg {
+        /* padding: 20px; */
+        padding: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body {
+        /* width: 80%;
+        max-height: 90%; */
+        width: 83%;
+        max-height: 95%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact {
+        /* width: 80%;
+        height: 100%; */
+        width: 85%;
+        height: 100%;
+    }
+    /* ==================================================================  */
+    
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details {
+        width: 290px;
+        height: 180px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text-title {
+        /* font-size: 20px; */
+        font-size: 19px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    /* ==================================================================  */
+    /* ==================================================================  */
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side {
+        /* width: 80%; */
+        width: 85%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .topic-text {
+        /* font-size: 23px; */
+        font-size: 21px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .description-text {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input::placeholder,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea::placeholder {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box label {
+        /* font-size: 15px; */
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container label div p {
+        /* font-size: 16px; */
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container #num-of-files {
+        /* font-size: 16px; */
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container ul li {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .button .pseudo-input {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #modals .modal-form-section ._modal .modal-bg {
+        padding: 10px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body {
+        width: 88%;
+        max-height: 95%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact {
+        width: 90%;
+        height: 100%;
+    }
+    /* ==================================================================  */
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details {
+        width: 285px;
+        height: 175px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text-title {
+        font-size: 18px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text {
+        font-size: 15px;
+    }
+    /* ==================================================================  */
+    /* ==================================================================  */
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side {
+        width: 90%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .topic-text {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .description-text {
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea {
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input::placeholder,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea::placeholder {
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box label {
+        font-size: 13px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container label div p {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container #num-of-files {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container ul li {
+        font-size: 15px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .button .pseudo-input {
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 480px) {
+    body #modals .modal-form-section ._modal .modal-bg {
+        padding: 5px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body {
+        width: 96%;
+        max-height: 95%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact {
+        width: 95%;
+        height: 100%;
+    }
+    /* ==================================================================  */
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details {
+        width: 280px;
+        height: 170px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text-title {
+        font-size: 17px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .contact .details .text {
+        font-size: 14px;
+    }
+    /* ==================================================================  */
+    /* ==================================================================  */
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side {
+        width: 95%;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .topic-text {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side .description-text {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box input::placeholder,
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box textarea::placeholder {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .input-box label {
+        font-size: 12px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container label div p {
+        font-size: 13px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container #num-of-files {
+        font-size: 13px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .file-container ul li {
+        font-size: 14px;
+    }
+    body #modals .modal-form-section ._modal .modal-bg .modal-body .modal-content .modal-cotainer .container .content .right-side form .button .pseudo-input {
+        font-size: 14px;
+    }
+}
+
+/* ////// END //////// modals ВСЁ ИСПРАВЛЕНО ИНТЕРВАЛЫ 768px 541px 481px ////////// */

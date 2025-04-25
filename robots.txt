@@ -1,0 +1,38 @@
+User-agent: *
+Disallow: /composer.json
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /README.md
+Disallow: /result1.js
+Disallow: /script-xlsx-result.js
+Disallow: /script-xlsx.js
+Disallow: /script.js
+Disallow: /1a.xlsx
+Disallow: /level2.xlsx
+Disallow: /level3-level4.xlsx
+Disallow: /vendor/*
+Disallow: /node_modules/*
+Disallow: /.github/*
+Disallow: /.git/*
+Disallow: /send_mail_basket.php
+Disallow: /send_mail.php
+Disallow: /some-disallowed-path/  # Не существующий путь
+Allow: /*.html*
+Allow: /js/*/*.js
+Allow: /js/*/*/*.dev.js
+Allow: /images/
+Allow: /fonts/*.woff2
+Allow: /favicons/*
+Allow: /dist/*.dev.js
+Allow: /css/*.css
+Allow: /main.css
+Allow: /form-basket.js
+Allow: /form-contact.js
+
+Host: sima-biz.rf.gd
+
+Sitemap: https://sima-biz.rf.gd/sitemap-level0.xml
+Sitemap: https://sima-biz.rf.gd/sitemap-level1.xml
+Sitemap: https://sima-biz.rf.gd/sitemap-level2.xml
+Sitemap: https://sima-biz.rf.gd/sitemap-level3.xml
+Sitemap: https://sima-biz.rf.gd/sitemap-level4.xml

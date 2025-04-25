@@ -1,0 +1,242 @@
+@media (min-width: 541px) and (max-width: 768px) {
+
+    body #main .section-basket .general-basket-empty .empty-text {
+        font-size: 19px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one {
+        width: 100%;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one .ipgb-block-text .ipgb-subblock-text .ipgb-a .ipgb-text {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two {
+        width: 100%;
+        border-top: solid 1px gray;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-price .ipgb-price-product {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-minus,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-plus {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-sum .ipgb-sum {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-recommendation .basket-recommendation-wrapper .basket-recommendation-text {
+        font-size: 18px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket {
+        width: 100%;
+    }
+    
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea {
+        font-size: 16px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input::placeholder,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea::placeholder {
+        font-size: 16px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .chooser-basket .block-chooser-basket .way-point-text {
+        font-size: 16px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-img-label .basket-label {
+        font-size: 16px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-title-basket .basket-regulations-title {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-basket .basket-regulations-text {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .button-block-basket .button-basket .pseudo-input-basket {
+        font-size: 17px;
+    }  
+}
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+
+    body #main .section-basket .general-basket-empty .empty-text {
+        font-size: 17px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one {
+        width: 100%;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one .ipgb-block-text .ipgb-subblock-text .ipgb-a .ipgb-text {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two {
+        width: 100%;
+        border-top: solid 1px gray;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-price .ipgb-price-product {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-minus,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-plus {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-sum .ipgb-sum {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-recommendation .basket-recommendation-wrapper .basket-recommendation-text {
+        font-size: 17px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket {
+        width: 100%;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea {
+        font-size: 15px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input::placeholder,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea::placeholder {
+        font-size: 15px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .chooser-basket .block-chooser-basket .way-point-text {
+        font-size: 15px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-img-label .basket-label {
+        font-size: 15px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-title-basket .basket-regulations-title {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-basket .basket-regulations-text {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .button-block-basket .button-basket .pseudo-input-basket {
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 480px) {
+
+    body #main .section-basket .general-basket-empty .empty-text {
+        font-size: 15px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one {
+        width: 100%;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-one .ipgb-block-text .ipgb-subblock-text .ipgb-a .ipgb-text {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two {
+        width: 100%;
+        border-top: solid 1px gray;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-price .ipgb-price-product {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-minus,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount,
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-amount .ipgb-choice-amount-plus {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-allgoods .ipgb-basket .ipgb-two .ipgb-block-sum .ipgb-sum {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-recommendation .basket-recommendation-wrapper .basket-recommendation-text {
+        font-size: 16px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket {
+        flex-direction: column;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket {
+        width: 100%;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea {
+        font-size: 14px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-input::placeholder,
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-textarea::placeholder {
+        font-size: 14px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .chooser-basket .block-chooser-basket .way-point-text {
+        font-size: 14px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .basket-shape-block .basket-img-label .basket-label {
+        font-size: 14px;
+    }
+    
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-title-basket .basket-regulations-title {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .filling-regulations-basket .regulations-basket .basket-regulations-text {
+        font-size: 14px;
+    }
+
+    body #main .section-basket .general-basket-full .basket-orderdata .content-orderdata .form-basket .envelet-form-basket .button-block-basket .button-basket .pseudo-input-basket {
+        font-size: 14px;
+    }
+}

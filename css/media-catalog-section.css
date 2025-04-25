@@ -1,0 +1,5 @@
+@media all and (max-width: 480px) {
+    body #main .catalog-section a .catalog .catalog-block-text .catalog-text {
+        font-size: 15px;
+    }
+}

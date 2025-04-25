@@ -1,0 +1,105 @@
+
+<!-- Что значит &amp;?
+&amp; — это HTML-энтити, которая используется для представления символа амперсанда (&) в XML и HTML.
+В URL параметры разделяются амперсандом, например, ?a=home&b=spare-parts&c=hooks.
+Внутри XML документа, такого как карта сайта, амперсанд должен быть заменен на &amp; для корректного синтаксиса. -->
+
+<!--  Важно обновлять <lastmod>?
+Обновленная информация: Поисковые системы используют <lastmod> как один из сигналов для определения, когда им нужно повторно проверить страницу на предмет изменений.
+Эффективная индексация: Часто обновляемый сайт без актуального <lastmod> может не индексироваться так часто, как следует, что может привести к медленной индексации новых или измененных данных.
+Пользовательский опыт: Обновление <lastmod> помогает обеспечить, что пользователи, приходящие на ваш сайт из поисковых систем, видят актуальный контент.
+    Обновляйте <lastmod>: Всегда обновляйте значение <lastmod> каждый раз, когда вносите значительные изменения в содержимое страницы.
+Автоматизация: Если у вас есть система управления контентом (CMS), настройте ее таким образом, чтобы она автоматически обновляла карту сайта и значение <lastmod> каждый раз, когда контент обновляется.
+    Если страница на вашем сайте будет обновляться, но тег <lastmod> в файле карты сайта не будет меняться, поисковые системы могут не узнать о том, что на странице произошли изменения. Это может привести 
+к тому, что поисковые системы не будут повторно индексировать эту страницу так часто, как вам бы хотелось, и, как следствие, в результатах поиска могут оставаться устаревшие данные.
+Обновление <lastmod> каждый раз, когда содержимое страницы меняется, важно для обеспечения эффективной индексации и актуальности контента в результатах поиска. Если <lastmod> не будет меняться при 
+обновлениях страницы, поисковые системы могут не распознать изменения, что может негативно сказаться на SEO вашего сайта. -->
+
+<!-- Возможные значения <changefreq>:
+always: Страница изменяется каждый раз, когда она запрашивается (например, динамически генерируемая новостная страница).
+hourly: Страница изменяется каждый час.
+daily: Страница изменяется каждый день.
+weekly: Страница изменяется каждую неделю.
+monthly: Страница изменяется каждый месяц.
+yearly: Страница изменяется каждый год.
+never: Страница никогда не изменяется. -->
+
+<!-- Примеры значений <priority>:
+1.0: Максимальный приоритет. Используется для самых важных страниц, таких как главная страница или ключевые разделы сайта.
+0.8: Высокий приоритет. Для важных страниц, но не настолько критичных, как главная страница.
+0.5: Средний приоритет. Для обычных страниц, таких как стандартные статьи или продукты.
+0.0: Низкий приоритет. Для наименее важных страниц, которые могут редко обновляться или не требуют частой индексации. -->
+
+<!-- ////////////////////////////////////////// -->
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://sima-biz.rf.gd/index-page-category-product.html?a=home&amp;b=spare-parts&amp;c=hooks&amp;d=low-speed&amp;e=1&amp;f=&amp;lang=ru</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset> -->
+
+
+<!-- ////////////////////////////////////////// -->
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset> -->
+
+<!-- ////////////////////////////////////////// -->
+
+<!-- <?xml version="1.0" ?>
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ua"/>
+  </url>
+  <url>
+    <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=en</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ua"/>
+  </url>
+  <url>
+    <loc>https://sima-biz.rf.gd/index.html?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ua</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sima-biz.rf.gd/index?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sima-biz.rf.gd/index?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://sima-biz.rf.gd/index?a=home&amp;b=&amp;c=&amp;d=&amp;e=&amp;f=&amp;lang=ua"/>
+  </url>
+</urlset> -->

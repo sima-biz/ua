@@ -1,0 +1,98 @@
+/*    list-pdf-section     START +++  11-09-2022  ############################### */
+
+body #main .list-pdf-section {
+    padding: 0;
+    margin: 0;
+}
+
+body #main .list-pdf-section .content2-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    width: 100%;
+    max-width: 1260px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper {
+    height: 40px;
+    width: 95%;
+    margin-top: 3px;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a {
+    text-decoration: none;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 10px;
+    background: #dcdde1;
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text {
+    min-width: 1px;
+    height: 40px;
+    word-break: break-all;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text {
+    color: #45698b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text span {
+    display: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-img {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/40pdf.png);
+    background-size: cover;
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section:hover .list-block-img {
+    margin-right: -10px;
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section:hover {
+    background: #5b8ab6;
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section:hover .list-block-text .content2-list-text {
+    color: #f5f6fa;
+    transition: linear 0.2s;
+}
+
+body #main .list-pdf-section .content2-list-section-wrapper .content2-block-overlapping {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+
+/* list-pdf-section   END       +++  11-09-2022   ##################################### */

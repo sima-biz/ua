@@ -1,0 +1,344 @@
+/* /////////////////////////////  BLOCK CATALOGS START  /////////////////////////////// */
+
+body #main .category-product-section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 378px;
+    width: 100%;
+    max-width: 1260px;
+    justify-content: space-around;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+body #main .category-product-section .product {
+    padding: 0;
+    margin: 0;
+    margin: 20px 10px 20px 10px;
+    box-sizing: border-box;
+    box-shadow: -4px -4px 7px -8px #45698b, 4px 4px 7px -8px #45698b;
+    transition: linear 0.5s;
+    /* border: 1px solid #45698b; */
+    width: 290px;
+    height: 490px;
+    
+}
+
+/* ================================================================= */
+
+/* body #main .category-product-section .product-w4x3h270width {
+    min-height: 1px;
+    width: 270px;
+}
+
+body #main .category-product-section .product-w6x7h270width {
+    min-height: 1px;
+    width: 270px;
+} */
+
+
+/* ================================================================ */
+
+body #main .category-product-section .product .product-link-a {
+    text-decoration: none;
+}
+
+body #main .category-product-section .product .product-link-a .product-link-block {
+    width: 100%;
+    min-height: 1px;
+}
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-img {
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+    /* border-top: 1px solid #e4e4e4; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 290px;
+    width: 100%;
+    /* background-image: url("../images/fon_parts_three.jpg"); */
+    position: relative;
+}
+
+
+/* ================================================================ */
+
+/* body #main .category-product-section .product .block-img-w4x3h270width {
+    height: 205px;
+    width: 100%;
+}
+
+body #main .category-product-section .product .block-img-w6x7h270width {
+    height: 315px;
+    width: 100%;
+} */
+
+
+/* ================================================================ */
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-img .img {
+    height: 100%;
+    width: auto;
+    /* width: 100%; */
+    /* width: 100%; */
+    /* height: 250px;
+    width: 250px; */
+    transition: linear 0.5s;
+}
+
+/* ************************************************************************ */
+
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-img .watermark {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    opacity: 0.15;
+}
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-img .paul{
+    position: absolute;
+    max-height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+/* *********************************************************************** */
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-text {
+    background-image: url("../images/fon_parts_three.jpg");
+    background-size: cover;
+    transition: linear 0.5s;
+    width: 100%;
+    height: 100px;
+    min-height: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body #main .category-product-section .product .product-link-a .product-link-block .block-text .text {
+    text-align: center;
+    color: #f5f6fa;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    min-height: 15px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    margin: 3px 0px 3px 0px;
+    padding: 2px 0px 0px 0px;
+    transition: linear 0.5s;
+}
+
+/* body #main .category-product-section .product .block-text .text-sp {
+    position: absolute;
+    bottom: -18%;
+    background-image: url(../images/grg.jpg);
+    font-size: 0px;
+    padding: 0px 0px;
+    width: 0%;
+    transition: linear 0.5s;
+} */
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+body #main .category-product-section .product .ipcp-сontrol-block {
+    width: 100%;
+    min-height: 1px;
+    
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+    
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount .ipcp-subblock-price {
+    width: 66%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(16, 172, 172); */
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount .ipcp-subblock-price .ipcp-price-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: black; */
+    color: green;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    /* background-color: rgb(67, 67, 67); */
+    min-width: 1px;
+    height: 30px;
+    line-height: 30px;
+    /* padding: 0px 5px; */
+    /* margin: 0px 5px; */
+    transform: scale(1.0, 1.2);
+    /* background-color: aqua; */
+    /* border: 1px solid white; */
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount .ipcp-subblock-amount {
+    width: 34%;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3px 0px 0px;
+    /* background-color: #ffd000; */
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount .ipcp-subblock-amount .ipcp-choice-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: rgb(104,143,180);
+    /* background-image: url("../images/fon_parts_three.jpg"); */
+    /* width: 44px; */
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px;
+    /* margin: 0px 2px; */
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    cursor: pointer;
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-price-amount .ipcp-subblock-amount .ipcp-choice-amount:hover {
+    color: #ffd000;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////// */
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    /* background-color: #45698b; */
+    /* background-image: url("../images/fon_parts_three.jpg"); */
+    /* background-color: rgb(104,143,180); */
+    background-color: rgb(222, 222, 222);
+}
+
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton .ipcp-add-botton-buy {
+    text-align: center;
+    color: #f5f6fa;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #45698b; */
+    /* background-image: url("../images/fon_parts_three.jpg"); */
+    /* background-color: rgb(104,143,180); */
+    background-color: rgb(104,143,180);
+    width: 48.5%;
+    height: 40px;
+    /* line-height: 30px; */
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton .ipcp-remove-botton-delet {
+    text-align: center;
+    color: #f5f6fa;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #45698b; */
+    /* background-image: url("../images/fon_parts_three.jpg"); */
+    /* background-color: rgb(104,143,180); */
+    background-color: rgb(104,143,180);
+    width: 48.5%;
+    height: 40px;
+    /* line-height: 30px; */
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    visibility: hidden;
+    transition: linear 0.5s;
+}
+
+/* body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton .ipcp-add-botton-buy:hover {
+    border: 1px solid red;
+} */
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton .ipcp-add-botton-buy:hover {
+    color: #ffd000;
+    background-color: rgb(207, 0, 0);
+    transition: linear 0.5s;
+}
+
+body #main .category-product-section .product .ipcp-сontrol-block .ipcp-block-botton .ipcp-remove-botton-delet:hover {
+    color: #ffd000;
+    background-color: rgb(207, 0, 0);
+    transition: linear 0.5s;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+body #main .category-product-section .product:hover {
+    box-shadow: -4px -4px 10px -8px #45698b, 4px 4px 10px -8px #45698b;
+    transition: linear 0.5s;
+}
+
+body #main .category-product-section .product:hover .product-link-a .product-link-block .block-text .text {
+    color: #ffd000;
+    transition: linear 0.5s;
+}
+
+/* body #main .category-product-section .product:hover .product-link-a .product-link-block .block-text .text-sp {
+    position: absolute;
+    color: #45698b;
+    bottom: -24%;
+    background-image: url(../images/grg.jpg);
+    background-size: 100% 300%;
+    font-size: 14px;
+    padding: 3px 0px;
+    width: 100%;
+    border-bottom: 1px solid #8fbace;
+    box-shadow: -4px -4px 10px -6px #45698b, 4px 4px 10px -6px #45698b;
+    transition: linear 0.3s;
+} */
+
+
+/* /////////////////////////////  BLOCK CATALOGS END  /////////////////////////////// */

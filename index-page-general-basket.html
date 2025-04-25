@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Разрешение индексации страницы поисковыми роботами и следование по ссылкам -->
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- <link rel="stylesheet" type='text/css' href="main.css" /> -->
+    <link rel="stylesheet" href="main.css" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <!-- На хостинге происходит ошибка Manifest: Line: 1, column: 1, Syntax error. -->
+    <!-- <link rel="manifest" href="favicons/site.webmanifest"> -->
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#45698b">
+    <meta name="msapplication-TileColor" content="#45698b">
+    <meta name="theme-color" content="#45698b">
+</head>
+
+<body>
+
+    <header id="header"> </header>
+
+
+    <div id="main">
+
+        <section id="crumbs" class="crumbs-section"></section>
+
+        <section id="discription" class="discription-section">
+            <div class="dsn">
+                <h1 class="key-text-h1 title-shadow-one lng-lev-title-product-basket" id="dynamicTextAlt-1">Корзина товара</h1>
+                <!-- <p class="key-text-p1 text-line lng-lev-helpfulrepair15-dsn-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam itaque non soluta earum sed quam tempora sapiente accusamus accusantium laborum eum saepe delectus vitae ad expedita, architecto dicta nam?</p> -->
+            </div>
+        </section>
+
+        <section class="section-basket">
+            <div class="general-basket-empty" id="idgeneralbasketempty">
+                <p class="lng-lev-title-product-basket-empty empty-text" >корзина товара пустая</p>
+            </div>
+            <div class="general-basket-full" id="idgeneralbasketfull">
+                <div class="basket-allgoods" id="basketallgoods"></div>
+                <div class="basket-recommendation">
+                    <div class="basket-recommendation-wrapper">
+                        <div class="lng-link-title-message-text-three basket-recommendation-text"></div>
+                    </div>
+                </div>
+                <div class="basket-orderdata" id="basketorderdata">
+                    <div class="content-orderdata">
+                        <form class="form-basket" action="send_mail_basket.php" name="formbasket" method="POST" enctype="multipart/form-data">
+
+
+                            <div class="envelet-form-basket">
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Surname" name="surnamebasketform" id="surnamebasketform" data-reg="^(?:[А-ЯЁа-яёA-Za-z-ЁёІіЇїЄєҐґ']+ ?)+$" />
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="surnamebasketform" class="lng-title-message-enter-surname basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Name" name="namebasketform" id="namebasketform" data-reg="^(?:[А-ЯЁа-яёA-Za-z-ЁёІіЇїЄєҐґ']+ ?)+$" />
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="namebasketform" class="lng-title-message-enter-name basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Patronymic" name="patronymicbasketform" id="patronymicbasketform" data-reg="^(?:[А-ЯЁа-яёA-Za-z-ЁёІіЇїЄєҐґ']+ ?)+$" />
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="patronymicbasketform" class="lng-title-message-enter-patronymic basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Email" name="emailbasketform" id="emailbasketform" data-reg="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="emailbasketform" class="lng-title-message-enter-email basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Phone" name="phonebasketform" id="phonebasketform" data-reg="^\+?[0-9\s()-]{6,}$" />
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="phonebasketform" class="lng-title-message-enter-phone basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Delivery service"  name="deliveryservicebasketform" id="deliveryservicebasketform" value="" is-valid="0" readonly />
+                                    <div class="chooser-basket">
+                                        <div class="block-chooser-basket deliveryservice">
+                                            <div class="point-deliveryservice">
+                                                <div class="way-point-deliveryservice"></div>
+                                            </div>
+                                            <div class="lng-link-title-nova-poshta-branch way-point-text">Отделение Новой почты</div>
+                                        </div>
+                                        <div class="block-chooser-basket deliveryservice">
+                                            <div class="point-deliveryservice">
+                                                <div class="way-point-deliveryservice"></div>
+                                            </div>
+                                            <div class="lng-link-title-by-courier-nova-poshta way-point-text">Курьером Новой почтой</div>
+                                        </div>
+                                        <div class="block-chooser-basket deliveryservice">
+                                            <div class="point-deliveryservice">
+                                                <div class="way-point-deliveryservice"></div>
+                                            </div>
+                                            <div class="lng-link-title-nova-poshta-parcel-terminal way-point-text">Почтомат Новой почты</div>
+                                        </div>
+                                        <div class="block-chooser-basket deliveryservice">
+                                            <div class="point-deliveryservice">
+                                                <div class="way-point-deliveryservice"></div>
+                                            </div>
+                                            <div class="lng-link-title-ukrposhta-branch way-point-text">Отделение Укрпочты</div>
+                                        </div>
+                                        <div class="block-chooser-basket deliveryservice">
+                                            <div class="point-deliveryservice">
+                                                <div class="way-point-deliveryservice"></div>
+                                            </div>
+                                            <div class="lng-link-title-pickup-zaporozhye way-point-text">Самовывоз в Запорожье</div>
+                                        </div>
+                                    </div>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="deliveryservicebasketform" class="lng-title-message-select-delivery-service basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <textarea class="basket-textarea" placeholder="Delivery area" name="deliveryareabasketform" data-reg="^[A-Za-zА-ЯЁа-яё0-9\s\-№,.\/*]*$"></textarea>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="deliveryareabasketform" class="lng-title-message-delivery-area basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <textarea class="basket-textarea" placeholder="Delivery city" name="deliverycitybasketform" data-reg="^[A-Za-zА-ЯЁа-яё0-9\s\-№,.\/*]*$"></textarea>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="deliverycitybasketform" class="lng-title-message-delivery-city basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <textarea class="basket-textarea" placeholder="Delivery address" name="deliveryaddressbasketform" data-reg="^[A-Za-zА-ЯЁа-яё0-9\s\-№,.\/*]*$"></textarea>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="deliveryaddressbasketform" class="lng-title-message-delivery-address basket-label"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="envelet-form-basket">
+                                <div class="basket-shape-block">
+                                    <input class="basket-input" type="text" placeholder="Payment"  name="waypaymentbasketform" id="waypaymentbasketform" value="" is-valid="0" readonly />
+                                    <div class="chooser-basket">
+                                        <div class="block-chooser-basket waypayment">
+                                            <div class="point-waypayment">
+                                                <div class="way-point-waypayment"></div>
+                                            </div>
+                                            <div class="lng-link-title-cash way-point-text">Наличными</div>
+                                        </div>
+                                        <div class="block-chooser-basket waypayment">
+                                            <div class="point-waypayment">
+                                                <div class="way-point-waypayment"></div>
+                                            </div>
+                                            <div class="lng-link-title-card-visa-mastercard-upon-receipt-of-goods way-point-text">Картой (Visa/Mastercard) при получении товара</div>
+                                        </div>
+                                        <div class="block-chooser-basket waypayment">
+                                            <div class="point-waypayment">
+                                                <div class="way-point-waypayment"></div>
+                                            </div>
+                                            <div class="lng-link-title-bill-payment-for-individuals way-point-text">Оплата по счету для физических лиц</div>
+                                        </div>
+                                        <div class="block-chooser-basket waypayment">
+                                            <div class="point-waypayment">
+                                                <div class="way-point-waypayment"></div>
+                                            </div>
+                                            <div class="lng-link-title-cashless-payments way-point-text">Безналичный расчет</div>
+                                        </div>
+                                        <div class="block-chooser-basket waypayment">
+                                            <div class="point-waypayment">
+                                                <div class="way-point-waypayment"></div>
+                                            </div>
+                                            <div class="lng-link-title-online-card-visa-mastercard-when-ordering-goods way-point-text">Онлайн картой (Visa/Mastercard) при заказе товара</div>
+                                        </div>
+                                    </div>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48red.png" alt="">
+                                        <label for="waypaymentbasketform" class="lng-title-message-select-payment-method basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <!-- <textarea placeholder="Message" name="messagebasketform" data-reg="^[A-Za-zА-ЯЁа-яё0-9\s\-№,.\/*]*$"></textarea> -->
+                                    <textarea class="basket-textarea" placeholder="Message" name="messagebasketform"></textarea>
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48green.png" alt="">
+                                        <label for="messagebasketform" class="lng-title-message-enter-message basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <!-- data-reg="^(?:\d{1,16})$" -->
+                                    <input class="basket-input" type="text"  name="ordernumberbasketform" id="ordernumberbasketform" value="0" readonly />
+                                    <!-- <textarea placeholder="0" name="ordernumberbasketform" id="ordernumberbasketform" readonly >0</textarea> -->
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48blue.png" alt="">
+                                        <label for="ordernumberbasketform" class="lng-title-order-number basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <!-- data-reg="^(?:1000000|\d{1,6})$" -->
+                                    <input class="basket-input" type="text"  name="totalquantitygoodsbasketform" id="totalquantitygoodsbasketform" value="0" readonly />
+                                    <!-- <textarea placeholder="0" name="totalquantitygoodsbasketform" id="totalquantitygoodsbasketform" readonly >0</textarea> -->
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48blue.png" alt="">
+                                        <label for="totalquantitygoodsbasketform" class="lng-title-total-quantity-goods basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="basket-shape-block">
+                                    <!-- data-reg=".*" -->
+                                    <input class="basket-input" type="text"  name="totalsumgoodsbasketform" id="totalsumgoodsbasketform" value="00.00 грн." readonly />
+                                    <!-- <textarea placeholder="00.00 грн." name="totalsumgoodsbasketform" id="totalsumgoodsbasketform" readonly >0.00 грн.</textarea> -->
+                                    <div class="basket-img-label">
+                                        <img class="basket-star-img" src="images/basket/star-13-48blue.png" alt="">
+                                        <label for="totalsumgoodsbasketform" class="lng-title-total-sum-goods basket-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="filling-regulations-basket">
+                                    <div class="regulations-title-basket">
+                                        <div class="lng-link-title-recommendations-for-correctly-filling-out-the-form basket-regulations-title">Рекомендации для правильного заполнения полей ввода данных формы</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                        <img class="basket-regulations-img" src="images/basket/star-13-48red.png" alt="">
+                                        <div class="lng-link-title-required-data-entry-field basket-regulations-text">Обязательное поле ввода данных</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                        <div class="point-regulations">
+                                            <div class="select-point-regulations"></div>
+                                        </div>
+                                        <div class="lng-link-title-mandatory-selection-item basket-regulations-text">Обязательная позиция выбора</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                        <div class="point-regulations">
+                                            <div class="selected-point-regulations"></div>
+                                        </div>
+                                        <div class="lng-link-title-required-selected-item basket-regulations-text">Обязательная выбранная позиция</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                        <img class="basket-regulations-img" src="images/basket/star-13-48green.png" alt="">
+                                        <div class="lng-link-title-optional-data-entry-field basket-regulations-text">Не обязательное поле ввода данных</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                        <img class="basket-regulations-img" src="images/basket/star-13-48blue.png" alt="">
+                                        <div class="lng-link-title-automatic-data-entry-field basket-regulations-text">Автоматическое поле ввода данных</div>
+                                    </div>
+                                    <div class="regulations-basket">
+                                    </div>
+                                </div>
+
+                                <div class="button-block-basket">
+                                    <div class="button-basket">
+                                        <div class="lng-link-title-message-send pseudo-input-basket"></div>
+                                        <input type="submit" id="buttonbasketform" value="Отправить" />
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="formdata-basket-wrapper"></div> -->
+            
+
+            
+
+        </section>
+        
+        <!--  -->
+        <!-- <div id="label" class="text-center"></div> -->
+
+        <!-- <div class="shopping-cart" id="shopping-cart"></div> -->
+        <!--  -->
+        
+    </div>
+
+    <footer id="footer" class="footer"></footer>
+
+    <div id="modals"></div>
+
+
+
+
+
+    <!-- <script src="https://kit.fontawesome.com/0bd948430b.js" crossorigin="anonymous"></script> -->
+
+    <!-- <script src="./js/index-page/index-default-lang.js" defer></script> -->
+
+    <script src="./js/base/base.js" defer></script>
+
+    <script src="./js/arrays-data/row1-level1-inital-DATA.js" type="module"></script>
+    <script src="./js/header/header.js" type="module"></script>
+
+    <script src="./js/arrays-data/col1-level3-level4-initial-DATA.js" type="module"></script>
+    <script src="./js/arrays-data/col2-level3-level4-initial-DATA.js" type="module"></script>
+    <script src="./js/arrays-data/col3-level3-level4-initial-DATA.js" type="module"></script>
+    <script src="./js/arrays-data/colALL-level3-level4-reformed-DATA.js" type="module"></script> 
+    
+    <script src="./js/basket-cart/index-page-general-basket.js" type="module"></script>
+    <!-- <script src="./js/basket-cart/index-page-general-basket.js" defer></script> -->
+
+
+    <script src="form-basket.js" defer></script>
+
+    <script src="./js/footer/footer.js" type="module"></script>
+
+    <script src="./js/modal/modal.js" defer></script>
+
+    <script src="form-contact.js" defer></script>
+
+    
+    <!-- <script src="./js/basket-cart/cart-local-storage.js" defer></script> -->
+    <script src="./js/basket-cart/cart-local-storage.js" type="module"></script>
+
+    <script src="./js/lang/lang-DATA.js" type="module"></script>
+    <script src="./js/lang/lang.js" type="module"></script>
+
+    <!-- <script src="./js/basket-cart/basket-local-storage.js" defer></script> -->
+
+    <script src="script.js" defer></script>
+
+
+</body>
+
+</html>

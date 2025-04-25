@@ -1,0 +1,42 @@
+/* CSS */
+
+/* head title {
+    text-transform: capitalize;
+} */
+
+/* @import url('css/fonts.css');
+подключён в каждом .html в 
+<head> <link rel="stylesheet" href="css/fonts.css"> <head> */
+@import url('css/header.css');
+@import url('css/main-page.css');
+@import url('css/crumbs.css');
+@import url('css/discription-title-text.css');
+@import url('css/slider.css');
+@import url('css/handbook-section.css');
+@import url('css/catalog-section.css');
+@import url('css/species-section.css');
+@import url('css/category-product.css');
+@import url('css/product-card.css');
+@import url('css/list-pdf-section.css');
+@import url('css/helpful-section.css');
+@import url('css/pagination-section.css');
+@import url('css/general-basket.css');
+@import url('css/footer.css');
+@import url('css/modals.css');
+
+/* CSS media */
+
+@import url('css/media-header.css');
+@import url('css/media-crumbs.css');
+@import url('css/media-discription-title-text.css');
+@import url('css/media-slider.css');
+@import url('css/media-handbook-section.css');
+@import url('css/media-catalog-section.css');
+@import url('css/media-species-section.css');
+@import url('css/media-category-product.css');
+@import url('css/media-product-card.css');
+@import url('css/media-list-pdf-section.css');
+@import url('css/media-helpful-section.css');
+@import url('css/media-general-basket.css');
+@import url('css/media-footer.css');
+@import url('css/media-modals.css');

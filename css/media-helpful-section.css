@@ -1,0 +1,241 @@
+
+/* ///////////// START /////////////  index.html  ////////////////////////////// */
+
+@media (min-width: 541px) and (max-width: 768px) {
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap-reverse;
+    }
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img {
+        margin-top: 10px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-article .content p,
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-repair .content p {
+        font-size: 16px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .title {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 16px;
+        text-align: left;
+        text-align: justify;
+        text-indent: 20px;
+        margin: 10px 5px 10px 5px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 16px;
+        text-indent: 20px;
+        margin: 10px 5px 5px 5px;
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a {
+        margin: 5px 5px 0px 5px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block {
+        width: 300px;   
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block .text-helpful-block .helpful-text-info {
+        font-size: 14px;
+    }
+/* //////// */
+}
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap-reverse;
+    }
+
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img {
+        margin-top: 10px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-article .content p,
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-repair .content p {
+        font-size: 15px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .title {
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 15px;
+        text-align: left;
+        text-align: justify;
+        text-indent: 20px;
+        margin: 10px 5px 10px 5px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 15px;
+        text-indent: 20px;
+        margin: 10px 5px 5px 5px;
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a {
+        margin: 5px 2px 0px 2px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block {
+        width: 280px;   
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block .text-helpful-block .helpful-text-info {
+        font-size: 13px;
+    }
+/* //////// */
+}
+
+
+@media all and (max-width: 480px){
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap-reverse;
+    }
+
+/* ///// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img {
+        height: 215px;
+        /* height: 275px; */
+        /* width: 400px; */
+        width: 290px;
+        margin-top: 10px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img {
+        height: 215px;
+        /* height: 275px; */
+        /* width: 400px; */
+        width: 290px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-article {
+        height: 215px;
+        /* height: 275px; */
+        /* width: 400px; */
+        width: 290px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-repair {
+        height: 215px;
+        /* height: 275px; */
+        /* width: 400px; */
+        width: 290px;
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-article .helpful-img, 
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-repair .helpful-img {
+        height: 180;
+        /* height: 240px; */
+        /* width: 400px; */
+        width: 290px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-article .content p,
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .block-img .wrapper-img .section-repair .content p {
+        font-size: 14px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .title {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 14px;
+        text-align: left;
+        text-align: justify;
+        text-indent: 20px;
+        margin: 10px 5px 10px 5px;
+    }
+/* //////// */
+/* //////// */
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .titles-block .text-block .text {
+        font-size: 14px;
+        text-indent: 20px;
+        margin: 10px 5px 5px 5px;
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a {
+        margin: 5px 2px 0px 2px;
+    }
+    
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block {
+        width: 280px;   
+    }
+    body #main .helpful .helpful-section .helpful-section-menu .menu-wrapper .block-content .menu-block .block-helpful-a a .block .text-helpful-block .helpful-text-info {
+        font-size: 13px;
+    }
+/* //////// */
+}
+/* ///////////// END /////////////  index.html  ////////////////////////////// */
+
+
+
+@media (min-width: 541px) and (max-width: 768px) {
+    /* /// START ///  index-page-helpful-article.html  index-page-helpful-repair.html  //////////////////// */
+    body #main .helpful-section-master-contact-article-repair .block-contact-article-repair  .a-article-repair {
+        /* font-size: 17px; */
+        font-size: 16px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtitle {
+        /* font-size: 20px; */
+        font-size: 19px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtext {
+        font-size: 16px;
+    }
+    /* /// END ///  index-page-helpful-article.html  index-page-helpful-repair.html  ////////////////////// */
+}
+
+@media (min-width: 481px) and (max-width: 540px) {
+    /* /// START ///  index-page-helpful-article.html  index-page-helpful-repair.html  //////////////////// */
+    body #main .helpful-section-master-contact-article-repair .block-contact-article-repair  .a-article-repair {
+        font-size: 15px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtitle {
+        font-size: 18px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtext {
+        font-size: 15px;
+    }
+    /* /// END ///  index-page-helpful-article.html  index-page-helpful-repair.html  ////////////////////// */
+}
+
+@media all and (max-width: 480px) {
+    /* /// START ///  index-page-helpful-article.html  index-page-helpful-repair.html  //////////////////// */
+    body #main .helpful-section-master-contact-article-repair .block-contact-article-repair  .a-article-repair {
+        font-size: 14px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtitle {
+        font-size: 17px;
+    }
+    body #main .helpful-section-article-repair .helpful-article-repair .unit-text-article-repair .subtext {
+        font-size: 14px;
+    }
+    /* /// END ///  index-page-helpful-article.html  index-page-helpful-repair.html  ////////////////////// */
+}

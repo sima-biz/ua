@@ -1,0 +1,66 @@
+/* /////////////////////////////  MEDIA BLOCK HANDBOOK START   КНОПКА прыжок и тень  /////////////////////////////// */
+
+@media (min-width: 541px) and (max-width: 768px) {
+    body #main .handbook-section .handbook-wrapper .handbook-description .handbook-title {
+        /* font-size: 20px; */
+        font-size: 19px;
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block {
+        display: flex;
+        flex-direction: column;
+        /* */
+        justify-content: center;
+        /* */
+        align-items: center;
+        /* */
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button {
+        /* font-size: 17px; */
+        font-size: 16px;
+        width: 275px;
+        line-height: 17px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .handbook-section .handbook-wrapper .handbook-description .handbook-title {
+        font-size: 18px;
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block {
+        display: flex;
+        flex-direction: column;
+        /* */
+        justify-content: center;
+        /* */
+        align-items: center;
+        /* */
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button {
+        font-size: 15px;
+        width: 250px;
+        line-height: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #main .handbook-section .handbook-wrapper .handbook-description .handbook-title {
+        font-size: 17px;
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block {
+        display: flex;
+        flex-direction: column;
+        /* */
+        justify-content: center;
+        /* */
+        align-items: center;
+        /* */
+    }
+    body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button {
+        font-size: 15px;
+        width: 250px;
+        line-height: 15px;
+    }
+}
+
+
+/* ////////////////////////////////  MEDIA BLOCK HANDBOOK END   КНОПКА прыжок и тень  /////////////////////////////// */

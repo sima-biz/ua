@@ -1,0 +1,118 @@
+body #main .discription-section {
+    padding: 0;
+    margin: 0;
+}
+
+body #main .discription-section .dsn {
+    padding: 0;
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 100%;
+    max-width: 1260px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/grg.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* ///  START  ///заголовок ++ 11-09-2022 //////  блок с фоном , заголовки  H1 и H2 и текст Р с подчеркиванием  ////// */
+
+body #main .discription-section .dsn .title-line-one {
+    color: #222222;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom: 3px solid #45698b;
+    position: relative;
+}
+
+body #main .discription-section .dsn .title-line-two {
+    color: #222222;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom: 3px solid #45698b;
+    position: relative;
+}
+
+body #main .discription-section .dsn .title-line-one::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    border-bottom: 3px solid #ffd000;
+    position: absolute;
+    left: 0;
+}
+
+body #main .discription-section .dsn .title-line-two::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    border-bottom: 3px solid #ffd000;
+    position: absolute;
+    left: 0;
+}
+
+
+/* ///  END  ///   заголовок ++ 11-09-2022 //////  блок с фоном , заголовки  H1 и H2 и текст Р с подчеркиванием   ////// */
+
+
+/* ///  START  ///  заголовок ++ 11-09-2022 //////  блок с фоном , заголовки  H1 и H2 и текст Р  с тенью  /////// */
+
+body #main .discription-section .dsn .title-shadow-one {
+    color: #31587d;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #fff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+body #main .discription-section .dsn .title-shadow-two {
+    color: #31587d;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #fff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+body #main .discription-section .dsn .text-line {
+    color: #222222;
+    text-indent: 30px;
+    padding: 0px 40px 0px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    margin: 15px 0px 0px 0px;
+    /* padding-bottom: 20px; */
+    width: 100%;
+    text-align: justify;
+}
+
+
+/* ///  END  ///  заголовок ++ 11-09-2022 //////  блок с фоном , заголовки  H1 и H2 и текст Р  с тенью  /////// */

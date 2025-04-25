@@ -1,0 +1,67 @@
+/* /////////////////////////////////////////////////////   BLOCK CRUMBS START  ///////////////////////////////////////////////////// */
+
+body #main .crumbs-section {
+    display: flex;
+    align-items: center;
+    min-height: 25px;
+    max-width: 1260px;
+    padding: 15px 40px 15px 40px;
+}
+
+body #main .crumbs-section .crumbs-text li {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    height: 100%;
+    list-style: none;
+    float: left;
+    min-width: 1px;
+}
+
+body #main .crumbs-section .crumbs-text .lev- {
+    display: none;
+}
+
+body #main .crumbs-section .crumbs-text li a {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    color: #555555;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body #main .crumbs-section .crumbs-text li a .divcrumbspage {
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    color: #555555;
+    text-transform: uppercase;
+}
+
+body #main .crumbs-section .crumbs-text li a:hover,
+body #main .crumbs-section .crumbs-text li a .divcrumbspage:hover {
+    color: #4f97db;
+}
+
+body #main .crumbs-section .crumbs-text li .fas {
+    padding: 0px 0px;
+    margin: 0px 6px;
+    /* font-size: 15px; */
+    /* color: #4f97db; */
+    height: 12px;
+    width: 12px;
+}
+
+
+/* /////////////////////////////////////////////////////   BLOCK CRUMBS END  ///////////////////////////////////////////////////// */

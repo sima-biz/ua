@@ -1,0 +1,61 @@
+/* //////////////////////// MEDIA BLOCK DESCRIPTION START ///////////////////////*/
+
+@media (min-width: 541px) and (max-width: 768px) {
+    body #main .discription-section .dsn .title-line-one {
+        font-size: 26px;
+    }
+    body #main .discription-section .dsn .title-line-two {
+        font-size: 26px;
+    }
+    body #main .discription-section .dsn .title-shadow-one {
+        font-size: 26px;
+    }
+    body #main .discription-section .dsn .title-shadow-two {
+        font-size: 26px;
+    }
+    body #main .discription-section .dsn .text-line {
+        padding: 0px 30px 0px 30px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .discription-section .dsn .title-line-one {
+        font-size: 22px;
+    }
+    body #main .discription-section .dsn .title-line-two {
+        font-size: 22px;
+    }
+    body #main .discription-section .dsn .title-shadow-one {
+        font-size: 22px;
+    }
+    body #main .discription-section .dsn .title-shadow-two {
+        font-size: 22px;
+    }
+    body #main .discription-section .dsn .text-line {
+        padding: 0px 20px 0px 20px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #main .discription-section .dsn .title-line-one {
+        font-size: 18px;
+    }
+    body #main .discription-section .dsn .title-line-two {
+        font-size: 18px;
+    }
+    body #main .discription-section .dsn .title-shadow-one {
+        font-size: 18px;
+    }
+    body #main .discription-section .dsn .title-shadow-two {
+        font-size: 18px;
+    }
+    body #main .discription-section .dsn .text-line {
+        padding: 0px 10px 0px 10px;
+        font-size: 14px;
+    }
+}
+
+
+/* //////////////////////////  MEDIA BLOCK DESCRIPTION END  /////////////////////// */

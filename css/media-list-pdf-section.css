@@ -1,0 +1,62 @@
+/* media-list-pdf-section    START   ########################################  */
+
+@media (min-width: 541px) and (max-width: 768px) {
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper {
+        height: 37px;
+        width: 95%;
+        margin-top: 3px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section {
+        width: 100%;
+        height: 37px;
+        padding: 0px 10px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text {
+        min-width: 1px;
+        height: 37px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text {
+        font-size: 15px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text span {
+        display: inline-block;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 540px) {
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper {
+        height: 37px;
+        width: 95%;
+        margin-top: 3px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section {
+        width: 100%;
+        height: 37px;
+        padding: 0px 10px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text {
+        min-width: 1px;
+        height: 37px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text {
+        font-size: 13px;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-text .content2-list-text span {
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    body #main .list-pdf-section .content2-list .content2-list-section-wrapper a .content2-list-section .list-block-img {
+        display: none;
+    }
+}
+
+
+/*   media-list-pdf-section f END ###################################################  */

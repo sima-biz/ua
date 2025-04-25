@@ -1,0 +1,159 @@
+@media (min-width: 661px) and (max-width: 768px) {
+    body #main .product-card-section .headline-card {
+        padding: 0px 11px;
+    }
+    body #main .product-card-section .headline-card .text-h1-card {
+        
+        font-size: 22px;
+        font-weight: 600;
+        word-spacing: 2px;
+    }
+    body #main .product-card-section .container-card .goods-card-left {
+        padding: 11px 11px;
+        width: 50%;
+    }
+    body #main .product-card-section .container-card .goods-card-left .picture-card-min div {
+        min-height: 95px;
+        max-width: 95px;
+    }
+    body #main .product-card-section .container-card .goods-card-right {
+        padding: 11px 11px;
+        width: 50%;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-one .text-card-one {
+        font-size: 16px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-two .text-card-two {
+        font-size: 16px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .records-card .a-records-card .records-card-wrapper .records-card-block .text-card-block .p-records-card {
+        /* font-size: 15px; */
+        font-size: 16px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .request-card-wrapper .block-request-card .request-card-button .p-request-card {
+        font-size: 16px;
+        }
+}
+
+
+
+
+@media (min-width: 541px) and (max-width: 660px) {
+    body #main .product-card-section .headline-card {
+        padding: 0px 10px;
+    }
+    body #main .product-card-section .headline-card .text-h1-card {
+        font-size: 21px;
+        font-weight: 600;
+        word-spacing: 1px;
+    }
+    body #main .product-card-section .container-card {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    body #main .product-card-section .container-card .goods-card-left {
+        padding: 10px 10px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-left .picture-card-min div {
+        min-height: 114px;
+        max-width: 114px;
+    }
+    body #main .product-card-section .container-card .goods-card-right {
+        padding: 10px 10px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-one .text-card-one {
+        font-size: 15px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-two .text-card-two {
+        font-size: 15px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .records-card .a-records-card .records-card-wrapper .records-card-block .text-card-block .p-records-card {
+        font-size: 15px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .request-card-wrapper .block-request-card .request-card-button .p-request-card {
+        font-size: 15px;
+        }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .product-card-section .headline-card {
+        padding: 0px 9px;
+    }
+    body #main .product-card-section .headline-card .text-h1-card {
+        font-size: 19px;
+        font-weight: 600;
+        word-spacing: 1px;
+    }
+    body #main .product-card-section .container-card {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    body #main .product-card-section .container-card .goods-card-left {
+        padding: 9px 9px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-left .picture-card-min div {
+        min-height: 107px;
+        max-width: 107px;
+    }
+    body #main .product-card-section .container-card .goods-card-right {
+        padding: 9px 9px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-one .text-card-one {
+        font-size: 14px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-two .text-card-two {
+        font-size: 14px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .records-card .a-records-card .records-card-wrapper .records-card-block .text-card-block .p-records-card {
+        font-size: 14px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .request-card-wrapper .block-request-card .request-card-button .p-request-card {
+        font-size: 14px;
+        }
+}
+
+@media all and (max-width: 480px) {
+    body #main .product-card-section .headline-card {
+        padding: 0px 8px;
+    }
+    body #main .product-card-section .headline-card .text-h1-card {
+        font-size: 17px;
+        font-weight: 600;
+        word-spacing: 0px;
+    }
+    body #main .product-card-section .container-card {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    body #main .product-card-section .container-card .goods-card-left {
+        padding: 8px 8px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-left .picture-card-min div {
+        min-height: 88px;
+        max-width: 88px;
+    }
+    body #main .product-card-section .container-card .goods-card-right {
+        padding: 8px 8px;
+        width: 100%;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-one .text-card-one {
+        font-size: 13px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .purpose-card-wrapper .block-purpose-card-two .text-card-two {
+        font-size: 13px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .records-card .a-records-card .records-card-wrapper .records-card-block .text-card-block .p-records-card {
+        font-size: 13px;
+    }
+    body #main .product-card-section .container-card .goods-card-right .request-card-wrapper .block-request-card .request-card-button .p-request-card {
+        font-size: 13px;
+        }
+}

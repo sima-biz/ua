@@ -1,0 +1,43 @@
+/* ///////////////////////////////  MEDIA  BLOCK SPECIES START  /////////////////////////////  */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body #main .species-section .species-wrapper a .species {
+        margin: 6px 5px 17px 5px;
+        width: 290px;
+    }
+    body #main .species-section .species-wrapper a .species .block-fon {
+        width: 290px;
+    }
+    body #main .species-section .species-wrapper a .species .container {
+        width: 290px;
+    }
+    body #main .species-section .species-wrapper a .species .container .species-name {
+        width: 188px;
+    }
+    body #main .species-section .species-wrapper a .species .container .species-name .species-text {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #main .species-section .species-wrapper a .species {
+        margin: 6px 5px 17px 5px;
+        width: 285px;
+    }
+    body #main .species-section .species-wrapper a .species .block-fon {
+        width: 285px;
+    }
+    body #main .species-section .species-wrapper a .species .container {
+        width: 285px;
+    }
+    body #main .species-section .species-wrapper a .species .container .species-name {
+        width: 183px;
+        /* height: 86px; */
+    }
+    body #main .species-section .species-wrapper a .species .container .species-name .species-text {
+        font-size: 13px;
+    }
+}
+
+
+/* ///////////////////////////////  BLOCK SPECIES END  /////////////////////////////  */

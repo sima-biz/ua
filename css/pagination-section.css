@@ -1,0 +1,151 @@
+body #main .pagination-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1260px;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+body #main .pagination-section .pagination-wrapper {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination {
+    width: 100%;
+    display: flex;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination-total {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination div {
+    display: inline-block;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .prev-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    /* padding: 0; */
+    /* text-transform: uppercase; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 40px; */
+    /* letter-spacing: 0px; */
+    /* word-spacing: 3px; */
+    width: 40px;
+    height: 40px;
+    /* line-height: 32px; */
+    /* text-align: center; */
+    cursor: pointer;
+    border: 1px solid #45698b;
+    /* color: #45698b; */
+    background: #fafafa;
+    /* border-radius: 20px; */
+    opacity: 0.9;
+    border-radius: 3px;
+    transition: linear 0.25s;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .prev-next .prev-next-img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    transition: linear 0.25s;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .page-wrapper {
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #45698b;
+    margin: 0 10px;
+    /* border-radius: 20px; */
+    border-radius: 3px;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .page-wrapper .page {
+    color: #45698b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .page-wrapper .page-num {
+    color: #45698b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination-total .total-pages {
+    color: #45698b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination-total .total {
+    color: #45698b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .prev-next:hover {
+    /* color: #f5f6fa; */
+    background: white;
+    opacity: 1;
+    border: 1px solid #45698b;
+    transition: linear 0.25s;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .prev-next:hover .prev-next-img {
+    opacity: 1;
+    transition: linear 0.25s;
+}
+
+body #main .pagination-section .pagination-wrapper .pagination .prev-next:hover .disable {
+    /* color: #45698b; */
+    /* color: #f5f6fa; */
+    /* background: #6a9cb5; */
+    /* border: 1px solid #45698b; */
+    opacity: 1;
+    transform: rotate(180deg);
+    transition: linear 0.25s;
+}

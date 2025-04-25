@@ -1,0 +1,3 @@
+# sima
+<!-- User-agent: *
+Disallow: / -->

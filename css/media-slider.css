@@ -1,0 +1,147 @@
+@media (min-width: 541px) and (max-width: 768px) {
+
+    body #main .slider-section {
+        /* width: 380px; */
+        width: 340px;
+    }
+    
+    body #main .slider-section .rotator {
+        /* width: 55%; */
+        width: 50%;
+    }
+
+    /* body #main .slider-section .rotator .items:first-child {
+        transform: rotateY(calc(40deg * 1)) translateZ(300px);
+    } */
+
+
+    body #main .slider-section .rotator .items:first-child {
+        transform: rotateY(calc(40deg * 1)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(2) {
+        transform: rotateY(calc(40deg * 2)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(3) {
+        transform: rotateY(calc(40deg * 3)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(4) {
+        transform: rotateY(calc(40deg * 4)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(5) {
+        transform: rotateY(calc(40deg * 5)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(6) {
+        transform: rotateY(calc(40deg * 6)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(7) {
+        transform: rotateY(calc(40deg * 7)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(8) {
+        transform: rotateY(calc(40deg * 8)) translateZ(245px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(9) {
+        transform: rotateY(calc(40deg * 9)) translateZ(245px);
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .slider-section {
+        width: 310px;
+    }
+    
+    body #main .slider-section .rotator {
+        width: 47%;
+    }
+
+    body #main .slider-section .rotator .items:first-child {
+        transform: rotateY(calc(40deg * 1)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(2) {
+        transform: rotateY(calc(40deg * 2)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(3) {
+        transform: rotateY(calc(40deg * 3)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(4) {
+        transform: rotateY(calc(40deg * 4)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(5) {
+        transform: rotateY(calc(40deg * 5)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(6) {
+        transform: rotateY(calc(40deg * 6)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(7) {
+        transform: rotateY(calc(40deg * 7)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(8) {
+        transform: rotateY(calc(40deg * 8)) translateZ(210px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(9) {
+        transform: rotateY(calc(40deg * 9)) translateZ(210px);
+    }
+}
+
+
+@media all and (max-width: 480px) {
+    body #main .slider-section {
+        width: 220px;
+    }
+    
+    body #main .slider-section .rotator {
+        width: 47%;
+    }
+
+    body #main .slider-section .rotator .items:first-child {
+        transform: rotateY(calc(40deg * 1)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(2) {
+        transform: rotateY(calc(40deg * 2)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(3) {
+        transform: rotateY(calc(40deg * 3)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(4) {
+        transform: rotateY(calc(40deg * 4)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(5) {
+        transform: rotateY(calc(40deg * 5)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(6) {
+        transform: rotateY(calc(40deg * 6)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(7) {
+        transform: rotateY(calc(40deg * 7)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(8) {
+        transform: rotateY(calc(40deg * 8)) translateZ(150px);
+    }
+    
+    body #main .slider-section .rotator .items:nth-child(9) {
+        transform: rotateY(calc(40deg * 9)) translateZ(150px);
+    }
+}

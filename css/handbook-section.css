@@ -1,0 +1,120 @@
+/* ///  START  ///  BLOCK HANDBOOK  /////////   КНОПКА прыжок и тень  ////////// */
+
+body #main .handbook-section {
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+    min-height: 1px;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-description {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    width: 100%;
+    max-width: 1260px;
+    align-items: center;
+    justify-content: center;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-description .handbook-title {
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom: 2px solid #45698b;
+    position: relative;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-description .handbook-title:before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    border-bottom: 2px solid #ffd000;
+    position: absolute;
+    left: 0;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-block {
+    width: 100%;
+    min-height: 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button {
+    background-image: url("../images/fon_parts_three.jpg");
+    background-size: cover;
+    background-size: 300px 70px;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    display: block;
+    color: #f5f6fa;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    width: 300px;
+    line-height: 20px;
+    margin: 20px auto;
+    padding: 12px 12px;
+    text-align: center;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    color: #ffd000;
+}
+
+body #main .handbook-section .handbook-wrapper .handbook-block .handbook-button:hover:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+
+/* ///  END  ///  BLOCK HANDBOOK  ///////////     КНОПКА прыжок и тень   /////////// */

@@ -1,0 +1,172 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    body .footer .container .box {
+        height: 275px;
+    }
+    body .footer .container .box h2 {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    /* */
+    /* 1 *********************************************************** */
+    body .footer .container .box .logo a .logo-wrapper .logo-img {
+        width: 150px;
+        height: 30px;
+    }
+    body .footer .container .box .logo a .logo-wrapper .logo-img img {
+        width: 150px;
+        height: 30px;
+    }
+    body .footer .container .box .logo a .logo-wrapper .logo-text p {
+        font-size: 8px;
+    }
+    body .footer .container .box .info {
+        margin-top: 5px;
+        max-height: 175px;
+    }
+    body .footer .container .box .info .text-info {
+        font-size: 15px;
+    }
+    /* */
+    /* 2, 3 ******************************************************** */
+    body .footer .container .box .address a {
+        height: 38px;
+    }
+    body .footer .container .box .address a .block {
+        max-width: 275px;
+        height: 38px;
+    }
+    body .footer .container .box .address a .block .block-a {
+        width: 38px;
+        height: 38px;
+        padding: 7px;
+    }
+    /* body .footer .container .box .address a .block .block-a img {
+        width: 22px;
+        height: 22px;
+    } */
+    body .footer .container .box .address a .block .block-b {
+        height: 38px;
+    }
+    body .footer .container .box .address a .block .block-b p {
+        font-size: 16px;
+    }
+    body .footer .container .box .address a .block .block-c {
+        width: 20px;
+        height: 20px;
+        margin-left: 6px;
+    }
+    body .footer .container .box .address a .block .block-c img {
+        width: 20px;
+        height: 20px;
+    }
+    /* 4 *******************************************************************/
+    body .footer .container .box .connection .connection-one img {
+        width: 15px;
+        height: 15px;
+    }
+    body .footer .container .box .connection .connection-one .connection-text {
+        font-size: 15px;
+    }
+    body .footer .container .box .connection .connection-two {
+        min-height: 35px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn {
+        height: 35px;
+        width: 260px;
+        line-height: 35px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn .button-img img {
+        width: 20px;
+        height: 20px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn .button-p p {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body .footer .container .box {
+        min-width: 280px;
+        height: 265px;
+    }
+    body .footer .container .box h2 {
+        font-weight: 400;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    /* 1 *************************************************************/
+    body .footer .container .box .logo a .logo-wrapper .logo-img {
+        width: 125px;
+        height: 25px;
+    }
+    body .footer .container .box .logo a .logo-wrapper .logo-img img {
+        width: 125px;
+        height: 25px;
+    }
+    body .footer .container .box .logo a .logo-wrapper .logo-text p {
+        font-size: 7px;
+    }
+    body .footer .container .box .info {
+        margin-top: 5px;
+        max-height: 170px;
+    }
+    body .footer .container .box .info .text-info {
+        font-size: 13px;
+    }
+    /* 2, 3 ****************************************************/
+    body .footer .container .box .address a {
+        height: 36px;
+    }
+    body .footer .container .box .address a .block {
+        max-width: 270px;
+        height: 36px;
+    }
+    body .footer .container .box .address a .block .block-a {
+        width: 36px;
+        height: 36px;
+        padding: 6px;
+    }
+    /* body .footer .container .box .address a .block .block-a img {
+        width: 22px;
+        height: 22px;
+    } */
+    body .footer .container .box .address a .block .block-b {
+        height: 36px;
+    }
+    body .footer .container .box .address a .block .block-b p {
+        font-size: 15px;
+    }
+    body .footer .container .box .address a .block .block-c {
+        width: 18px;
+        height: 18px;
+        margin-left: 6px;
+    }
+    body .footer .container .box .address a .block .block-c img {
+        width: 18px;
+        height: 18px;
+    }
+    /* 4 *************************************************************/
+    body .footer .container .box .connection .connection-one img {
+        width: 14px;
+        height: 14px;
+    }
+    body .footer .container .box .connection .connection-one .connection-text {
+        font-size: 14px;
+    }
+    body .footer .container .box .connection .connection-two {
+        min-height: 30px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn {
+        height: 30px;
+        width: 260px;
+        line-height: 30px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn .button-img img {
+        width: 18px;
+        height: 18px;
+    }
+    body .footer .container .box .connection .connection-two .block .modal__btn .button-p p {
+        font-size: 14px;
+    }
+}

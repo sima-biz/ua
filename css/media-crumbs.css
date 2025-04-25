@@ -1,0 +1,43 @@
+/* ///////////////////////////////////////////////  MEDIA BLOCK CRUMBS START  ////////////////////////////////////////////// */
+
+@media (min-width: 541px) and (max-width: 760px) {
+    body #main .crumbs-section {
+        padding: 12px 30px 12px 30px;
+    }
+    body #main .crumbs-section .crumbs-text li a {
+        font-size: 15px;
+    }
+    body #main .crumbs-section .crumbs-text li .fas {
+        height: 11px;
+        width: 11px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 540px) {
+    body #main .crumbs-section {
+        padding: 9px 20px 9px 20px;
+    }
+    body #main .crumbs-section .crumbs-text li a {
+        font-size: 14px;
+    }
+    body #main .crumbs-section .crumbs-text li .fas {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #main .crumbs-section {
+        padding: 6px 10px 6px 10px;
+    }
+    body #main .crumbs-section .crumbs-text li a {
+        font-size: 13px;
+    }
+    body #main .crumbs-section .crumbs-text li .fas {
+        height: 9px;
+        width: 9px;
+    }
+}
+
+
+/* ///////////////////////////////////////////////  MEDIA BLOCK CRUMBS END  ////////////////////////////////////////////// */

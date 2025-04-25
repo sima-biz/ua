@@ -1,0 +1,401 @@
+    /* START ********** language ************** */
+    
+    @media (min-width: 0px) and (max-width: 768px) {
+        body header .block-header-summit-level {
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 0px;
+        }
+        body header .block-header-summit-level .language {
+            width: 100%;
+        }
+        body header .block-header-summit-level .language .language-wrapper {
+            height: 52px;
+        }
+        body header .block-header-summit-level .contact-menu {
+            width: 100%;
+        }
+        body header .block-header-summit-level .contact-menu .contact {
+            justify-content: center;
+            padding-right: 0px;
+        }
+    }
+    /* END ********** language ************** */
+    /*  */
+     /* * START *************** basket ******************  */
+    
+    @media (min-width: 0px) and (max-width: 768px) {
+        body header .block-header-summit-level .contact-menu .basket {
+            padding-right: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+      /* * END *************** basket *******************  */
+    /*  */
+    /* START *********** menu ************* */
+    
+    @media (min-width: 0px) and (max-width: 768px) {
+        body header .block-header-summit-level {
+            padding: 0px 0px;
+        }
+        body header .block-header-summit-level .contact-menu .menu {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            z-index: 200000;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper {
+            /* margin: 200px auto; */
+            /* width: 320px; */
+            width: 100%;
+            /* background-color: #000; */
+            background-color: #45698b;
+            position: relative;
+            text-align: center;
+            height: 40px;
+            /* z-index: 200000; */
+            /* идекс надо */
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu {
+            display: none;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            /* z-index: 200000; */
+            /* идекс надо */
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            cursor: pointer;
+            color: #f5f6fa;
+            text-align: right;
+            padding-right: 45px;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label:hover {
+            color: #ffd000;
+            transition: 0.5s linear;
+        }
+        /* ******************* */
+        body header .block-header-summit-level .contact-menu .menu .wrapper label .burger-line {
+            position: absolute;
+            top: 8px;
+            right: 15px;
+            width: 18px;
+            height: 2px;
+            background-color: #fff;
+            transition: all 0.5s;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label:hover .burger-line {
+            background-color: #ffd000;
+            transition: all 0.5s;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label .second,
+        body header .block-header-summit-level .contact-menu .menu .wrapper label .third {
+            top: 18px;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label .first {
+            top: 11px;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper label .fourth {
+            top: 25px;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper .main-menu {
+            display: block;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            transform: translateY(100%);
+            max-height: 0;
+            font-size: 0;
+            overflow: hidden;
+            transition: all 0.5s;
+            z-index: 200000;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper .main-menu a {
+            display: block;
+            width: 100%;
+            /* height: 40px;
+            line-height: 40px; */
+            height: 35px;
+            line-height: 35px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            cursor: pointer;
+            color: #f5f6fa;
+            text-decoration: none;
+            border-top: 1px solid rgba(240, 240, 240, 0.3);
+            background-color: #45698b;
+            opacity: 1;
+            z-index: 200000;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper .main-menu a:hover {
+            background: #5b8ab6;
+            transition: 0.5s linear;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu:checked~.main-menu {
+            max-height: 500px;
+            font-size: 16px;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu:checked~label .first {
+            display: none;
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu:checked~label .second {
+            transform: rotate(45deg);
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu:checked~label .third {
+            transform: rotate(-45deg);
+        }
+        body header .block-header-summit-level .contact-menu .menu .wrapper #check-menu:checked~label .fourth {
+            display: none;
+        }
+    }
+    /* END *********** menu ************* */
+    /*  */
+    /* START *********** slider ************* */
+    /* END ************* slider ************* */
+    /*  */
+    /* START *********** dws-menu ************* */
+    
+    @media (min-width: 769px) and (max-width: 10000px) {
+        body header .block-header-menu-level .menu-section .dws-menu {
+            max-width: 1260px;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        /* *********************************************************** */
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li {
+            width: 20%;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .level-a {
+            max-width: 100%;
+        }
+        /* *********************************************************** */
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .level-a {
+            text-decoration: none;
+            /* color: #f5f6fa; */
+            transition: all 0.5s;
+            /* стиль в header.js */
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul {
+            width: 1260px;
+            min-height: 150px;
+            /* высота блока выезд */
+            position: absolute;
+            background: #5b8ab6;
+            /* отступы по периметру блока выезд */
+            margin: 0px 0px 0px 0px;
+            padding: 50px 15px;
+            transition: 0.5s linear;
+        }
+        /* ................... */
+        
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li:hover .sublevel-ul {
+            display: block;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            transition: 0.5s linear;
+        }
+        /* ....................... */
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul .sublevel-li {
+            padding: 0px 10px 0px 10px;
+            /* отступы между блоками блока выезд */
+            border: none;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul .sublevel-li .sublevel-a {
+            width: 270px;
+            height: 34px;
+            text-transform: uppercase;
+            color: #f5f6fa;
+            /* font-size: 17px; */
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            text-align: left;
+            padding: 0px 0px 0px 0px;
+            line-height: 34px;
+            background: #5b8ab6;
+            border-bottom: 1px solid #f5f6fa;
+            transition: 0.7s linear;
+            /* блоки в всплывающем  блоке выезд */
+            /* background: #45698b; */
+            width: 350px;
+        }
+    }
+    /*  */
+    
+    @media (min-width: 769px) and (max-width: 1260px) {
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul {
+            width: 100vw;
+            transition: 0.5s linear;
+        }
+    }
+    
+    @media all and (max-width: 768px) {
+        body header .block-header-menu-level .menu-section {
+            padding: 0;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu {
+            overflow: hidden;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu input.toggleMenu {
+            display: none;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu {
+            padding: 0;
+            margin: 0;
+            padding-left: 45px;
+            height: 50px;
+            line-height: 50px;
+            /* меню */
+            background: #45698b;
+            cursor: pointer;
+            position: relative;
+            transition: linear 0.5s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .toggleMenu:hover {
+            color: #ffd000;
+            transition: linear 0.5s;
+        }
+        /* START ************** BURGER dws-menu **************** */
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu .burger-line {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            /* top: 8px; */
+            left: 15px;
+            width: 18px;
+            height: 2px;
+            background-color: #f5f6fa;
+            transition: all 0.5s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu:hover .burger-line {
+            background-color: #ffd000;
+            transition: all 0.5s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu .second,
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu .third {
+            top: 18px;
+            top: 24px;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu .first {
+            top: 11px;
+            top: 17px;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu .fourth {
+            top: 25px;
+            top: 31px;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu #menu:checked~label.toggleMenu .first {
+            display: none;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu #menu:checked~label.toggleMenu .second {
+            transform: rotate(45deg);
+        }
+        body header .block-header-menu-level .menu-section .dws-menu #menu:checked~label.toggleMenu .third {
+            transform: rotate(-45deg);
+        }
+        body header .block-header-menu-level .menu-section .dws-menu #menu:checked~label.toggleMenu .fourth {
+            display: none;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu p {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            color: #f5f6fa;
+        }
+        /* END ************** BURGER dws-menu **************** */
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul {
+            display: block;
+            max-height: 0;
+            transition: max-height 0.3s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .level-a {
+            border-bottom: 1px solid rgba(240, 240, 240, 0.3);
+            /* 1 уровень */
+            /* text-align: left; */
+            text-align: center;
+            padding-left: 15px;
+            height: 40px;
+            line-height: 40px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            /* transition: all 2s; */
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul .sublevel-li .sublevel-a {
+            border-bottom: 1px solid rgba(240, 240, 240, 0.3);
+            /* 2уровень */
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu {
+            display: block;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu input .toggleMenu:checked+label .toggleMenu {
+            color: #f5f6fa;
+            /* уровень само меню */
+            border-bottom: 1px solid rgba(240, 240, 240, 0.3);
+            transition: linear 0.5s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleMenu:hover p {
+            color: #ffd000;
+            transition: linear 0.5s;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu input.toggleMenu:checked~.level-ul {
+            display: block;
+            position: relative;
+            max-height: 10000px;
+            transition: max-height 2s ease-in;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu input.toggleSubmenu:checked~.sublevel-ul {
+            display: block;
+            position: relative;
+            max-height: 10000px;
+            min-height: 1px;
+            transition: max-height 2s ease-in;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu label.toggleSubmenu {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            display: block;
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li input.toggleSubmenu:checked~.level-a {
+            color: #ffd000;
+            background: #45698b;
+            /* text-align: center; */
+            text-align: left;
+            /* 1 уровень при клике */
+        }
+        body header .block-header-menu-level .menu-section .dws-menu .level-ul .level-li .sublevel-ul .sublevel-li input.toggleSubmenu:checked~.sublevel-a {
+            background: #5b8ab6;
+            color: #ffd000;
+            text-align: center;
+            /* 2 уровень при клике */
+        }
+    }
+    /* END *********** dws-menu ************* */
