@@ -41,7 +41,8 @@
         // Создаем новый URL с текущим URL
         let newUrl = new URL(window.location.href);
         // Заменяем путь на "index.html"
-        newUrl.pathname = 'index.html';
+        // newUrl.pathname = 'index.html';
+        newUrl.pathname = newUrl.pathname.replace(/[^\/]*$/, 'index.html');
         
         // Добавляем или обновляем параметры в URL
         newUrl.searchParams.set('a', 'home');
