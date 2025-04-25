@@ -35,7 +35,7 @@ import { row1level1initalDATA } from "./js/arrays-data/row1-level1-inital-DATA.j
 import fs from "fs"; // Импорт модуля fs для работы с файловой системой
 
 // Константы, которые используются для генерации карты сайта
-const BASE_URL = "https://sima-biz.rf.gd"; // Базовый URL сайта
+const BASE_URL = "https://sima-biz.github.io/ua"; // Базовый URL сайта
 const LANGUAGES = ["ru", "en", "ua"]; // Список доступных языков
 const DATE = "2025-01-07"; // Фиксированная дата для метки <lastmod>
 
